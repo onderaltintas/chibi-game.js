@@ -52,12 +52,12 @@ var Game = function() {
     var moved = false;
     if (state.pressedKeys.left) {
         moved = true;
-        state.x -= 1
+        state.x -= 2
         movementDirection = -1;
     }
     if (state.pressedKeys.right) {
       moved = true;
-      state.x += 1
+      state.x += 2
       movementDirection = +1;
     }
     if (state.pressedKeys.up) {
@@ -75,16 +75,16 @@ var Game = function() {
       }
       
       if(jumpPower === -999) {
-        jumpPower = 20;
+        jumpPower = 12;
       } else {
-        jumpPower = jumpPower + 1 > 30? 30 : jumpPower + 1;
+        jumpPower = jumpPower + 0.5 > 20? 20 : jumpPower + 0.5;
       }
     }
 
     if(initialY !== -999) 
     {
       jumpStep++;
-      jumpPower = jumpPower - 2;
+      jumpPower = jumpPower - 1;
       state.y = state.y - jumpPower > initialY? initialY : state.y - jumpPower;
       
       state.y = state.y < 0 ? 0 : state.y;
