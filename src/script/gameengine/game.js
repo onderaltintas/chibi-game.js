@@ -38,7 +38,6 @@ var Game = function() {
   }
  
   function keydown(event) {
-    console.log(event.keyCode);
     var key = keyMap[event.keyCode]
     state.pressedKeys[key] = true
   }
