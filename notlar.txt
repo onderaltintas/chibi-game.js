@@ -1,0 +1,26 @@
+oyun ismi:
+life of a chibi
+
+nasýl:
+oyuncu bir karakter seçer, karakteri ister süper kahraman, ister normal vatandaþ stillerinde oynayabilir. 
+random encounterlar olur. 
+karakter statlarý olur. karakterin gidebileceði yerler ve o yerlerde interaksiyona girebileceði npc ler ya da olaylar. 
+
+açlýk
+susuzluk
+eðitim
+iþ
+arkadaþlýk
+özellikleri olur.
+
+karakter seçimi deðiþik karakterler chibi style.
+
+sprite animation:https://www.piskelapp.com
+karakter zýplasýn
+
+mario jump:
+https://www.youtube.com/watch?list=PLRfJP25LI5vTT6qHBm9hmYrT4WMXDROc0&time_continue=6&v=z2oV2DQ2dEA
+
+refactor asap.
+
+159.89.177.161:8080/chibi-rpg/
