@@ -22,7 +22,7 @@ var SoundManager = function() {
   this.loopPlaylist = function() {
     play(musics[nowPlayingIndex], function(){
       nowPlayingIndex= (nowPlayingIndex+1) % musics.length;
-      loopPlayList();
+      loopPlaylist();
     })
   }
   
