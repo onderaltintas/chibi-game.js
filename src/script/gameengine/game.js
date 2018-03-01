@@ -11,6 +11,7 @@ var Game = function() {
   var initialY = -999;
   var jumpStep = 0;
   var movementDirection = 0;
+  var soundManager;
   var state = {
     x: (71),
     y: (187),
@@ -134,7 +135,11 @@ var Game = function() {
 
   this.run = function(){ 
     init();
-    window.requestAnimationFrame(loop)
+    soundManager = new SoundManager();
+    var music = new SoundFile("heyoh", "media/music/heyoh.ogg");
+    soundManager.addMusic(music);
+    soundManager.loopPlaylist();
+    window.requestAnimationFrame(loop);
   }
   
   var self = this;
