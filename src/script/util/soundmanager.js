@@ -20,9 +20,10 @@ var SoundManager = function() {
   }
   
   this.loopPlaylist = function() {
+    var that = this;
     play(musics[nowPlayingIndex], function(){
       nowPlayingIndex= (nowPlayingIndex+1) % musics.length;
-      loopPlaylist();
+      that.loopPlaylist();
     })
   }
   
