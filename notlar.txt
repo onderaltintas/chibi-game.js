@@ -27,3 +27,5 @@ refactor asap.
 
 nice example:
 https://github.com/jlongster/canvas-game-bootstrap/blob/master/js/app.js
+the article of example:
+https://jlongster.com/Making-Sprite-based-Games-with-Canvas
