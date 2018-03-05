@@ -121,7 +121,7 @@ var Game = function() {
   
   function draw() {
     ctx.clearRect(0, 0, width, height);
-    ctx.drawImage(backgroundImage, -1 * state.x , -1 * state.y, canvas.width * 2, canvas.height * 2);
+    ctx.drawImage(backgroundImage, -0.5 * state.x , 0, canvas.width * 1.5, canvas.height * 1);
     ctx.drawImage(characterImage, 0 , animState * 100, 100, 100, state.x, state.y, 100, 100);
   }
   

@@ -24,3 +24,6 @@ https://www.youtube.com/watch?list=PLRfJP25LI5vTT6qHBm9hmYrT4WMXDROc0&time_conti
 refactor asap.
 
 159.89.177.161:8080/chibi-rpg/
+
+nice example:
+https://github.com/jlongster/canvas-game-bootstrap/blob/master/js/app.js
